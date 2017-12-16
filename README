@@ -2,3 +2,12 @@
 
 This is the master bibtex file that I grow as needed. I usually use the extremely useful 
 [bibget](http://www.math.tamu.edu/~comech/tools/bibget/) which helps me pull mathematical citations for the American Mathematical Society's [mathscinet](http://www.ams.org/mathscinet/).
+
+# Notes
+
+1.  Dec 16 2017 I'm now going with the sorted version, I don't really care that much anymore.
+1.  Dec 16 2017 Used Jabref in Oct to convert into biblatex format, and this changed year to date. It stopped working with natbib, 
+    so I had to move back to bibtex format. I went and posted on the jabref forums, and they gave me a convert back to bibtex format.
+1.  Dec 16 2017 bibtool also works for this, but it rewrites the field names, just like jabref. So I had to set a bunch of options in mydefs.rsc
+    to make it preserve keys. The problem with the bibtool version is that it sorts the file. I guess we don't have to have a sorted file. 
+    This didn't work. duplicate deletion doesn't work unless you sort things. I don't know why.
